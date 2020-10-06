@@ -1,0 +1,79 @@
+*{
+    
+    margin: 0px;
+    padding: 0px;
+    
+}
+.navbar{
+    position: fixed;
+    background-color:rgb(231, 204, 167);
+    height: 50px;
+    width: 100%;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    border-bottom: 100px solid;
+    border-width: medium;
+  border-color:rgb(66, 105, 60);
+}
+
+.por{
+    font-size: 35px;
+    font-weight: 400;
+    float:left;
+    padding: 6px;
+    color: rgb(37, 14, 14);
+}
+.nava{
+    float: right;
+    cursor: pointer;
+
+}
+.nava li{
+    font-size: 20px;
+    font-weight: 700px;
+    float: left;
+    padding: 15px 25px;
+    list-style: none;
+}
+.nava a{
+    text-decoration: none;
+    color: rgb(25, 27, 24);
+}
+
+.boo{
+    font-weight:bolder;
+    color:rgb(191, 230, 84);
+    height:100vh;
+    width: 100%;
+    background-image:url(images/mac.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.boo ul{
+    padding-top: 100px;
+padding-left: 30px;
+    float: left;
+    list-style: none;
+    font-size:60px;
+}
+.About{
+    height:100vh;
+    font-weight: 600;
+    width:100%;
+    background-color: beige;
+}
+.about-head{
+    padding-top: 70px;
+    text-align: center;
+    font-size: 50px;
+}
+.imag{
+    height: 100px;
+    width: 100px;
+    background-image: url(ribble-cycles-ojYGEX6L_bs-unsplash.jpg);
+    background-position: left;
+}
+.about-data{
+    float: right;
+}
