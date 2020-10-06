@@ -6,22 +6,26 @@
 }
 .navbar{
     position: fixed;
-    background-color:rgb(231, 204, 167);
-    height: 50px;
+    background-color:rgb(14, 11, 8);
+    height: 60px;
     width: 100%;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
     border-bottom: 100px solid;
     border-width: medium;
-  border-color:rgb(66, 105, 60);
+  border-color:rgb(230, 162, 162);
 }
 
 .por{
     font-size: 35px;
     font-weight: 400;
     float:left;
-    padding: 6px;
-    color: rgb(37, 14, 14);
+    text-shadow: 1px 2px  rgb(247, 231, 231);
+    padding: 16px 30px;
+    color: rgb(196, 189, 189);
+}
+.por li{
+    list-style: none;
 }
 .nava{
     float: right;
@@ -29,50 +33,64 @@
 
 }
 .nava li{
-    font-size: 20px;
-    font-weight: 700px;
+    font-size: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     float: left;
-    padding: 15px 25px;
+    padding: 22px 30px;
     list-style: none;
 }
 .nava a{
     text-decoration: none;
-    color: rgb(25, 27, 24);
+    color: rgb(247, 231, 231);
 }
 
 .boo{
     font-weight:bolder;
-    color:rgb(191, 230, 84);
+    color:rgb(214, 238, 203);
     height:100vh;
     width: 100%;
     background-image:url(images/mac.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
-
+    text-shadow: 1px 1px  rgb(7, 187, 97);
 }
 .boo ul{
-    padding-top: 100px;
-padding-left: 30px;
+    padding-top: 200px;
+    padding-left: 30px;
+    
     float: left;
     list-style: none;
     font-size:60px;
 }
+.space{
+    height: 10px;
+    width: 100%;
+    background-color: azure;
+}
+
+
+
+
 .About{
     height:100vh;
     font-weight: 600;
     width:100%;
-    background-color: beige;
 }
 .about-head{
-    padding-top: 70px;
+    padding-top:100px;
     text-align: center;
     font-size: 50px;
+    text-shadow: 1px 2px  rgb(185, 60, 60);
 }
 .imag{
-    height: 100px;
-    width: 100px;
-    background-image: url(ribble-cycles-ojYGEX6L_bs-unsplash.jpg);
-    background-position: left;
+    margin: 70px;
+    padding: 30px 20px;
+    height: 400px;
+    width: 400px;
+    background-image: url(images/raghu.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 300px;
 }
 .about-data{
     float: right;
