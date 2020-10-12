@@ -2,6 +2,7 @@
     
     margin: 0px;
     padding: 0px;
+    background-color: black;
     
 }
 #navbar{
@@ -32,6 +33,7 @@
 
 }
 .nava li{
+    background-color: whitesmoke;
     font-size: 15px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     float: left;
@@ -39,6 +41,7 @@
     list-style: none;
 }
 .nava a{
+    background-color: whitesmoke;
     text-decoration: none;
     color:rgb(26, 18, 18);
 }
@@ -48,7 +51,7 @@
   
     height:100vh;
     width: 100%;
-   background-color:rgb(26, 18, 18);
+   background-color:transparent;
     background-image: url(images/black1.jpg);
     image-orientation: from-image;
     background-size: cover;
@@ -59,6 +62,7 @@
   border-color:black;
 }
 #boo ul{
+    background-color: transparent;
     padding-top: 200px;
     padding-left: 30px;
     float: left;
@@ -67,11 +71,13 @@
 
 .c1{
     color:rgb(94, 121, 73);
+    background-color: transparent;
     font-size: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    padding-left: 20px;
 }
 .c2{
+    background-color: transparent;
     color:rgb(111, 250, 4);
     padding: 40px 20px;
     font-size: 100px;
@@ -110,7 +116,7 @@
     background-color: azure;
 }
 .about-head{
-   
+   background-color: transparent;
     color: rgb(191, 228, 25);
     text-align: center;
     padding-top:25px;
@@ -132,6 +138,7 @@
     border-color: black;
 }
 .about-data{
+    background-color: transparent;
     padding-top: 20vh;
     margin-left: 50vw;
     margin-right: 20vw;
@@ -141,7 +148,7 @@
     
     height:100px;
     width: 120px;
-    color:rgb(26, 18, 18);
+    color:rgb(211, 200, 200);
     margin-left: 1400px;
 }
 
@@ -208,20 +215,84 @@
 #contact{
     padding-bottom: 80px;
     color :rgb(8, 10, 8);
-    background-color: rgb(8, 10, 8);
+    background-color:transparent;
 }
 #Contact{
     width: 100%;
     height: 91vh;
-   background-image: url(images/cont.jpg);
-    border-bottom: 100px solid;
-    border-width: medium;
-  border-color:black;
+   border-width: medium;
+   text-align: center;
+   justify-content: center;
+  border-color:rgb(216, 188, 188);
+  background-image: url(images/cont.jpg);
 }
 .contact-head{
+    background-image: url(images/cont.jpg);
     color: rgb(111, 250, 4);
-    padding-top:25px;
-    text-align: center;
+    
+    height: 20px;
+    width:350px;
+    padding-top: 20px;
     font-size: 50px;
+    padding-left: 450px;
+    padding-right: 600px;
     text-shadow: 1px 1px  whitesmoke;
 }
+form{
+    padding-top: 100px;
+    text-align: center;  
+    background-color: transparent;
+    justify-content: center;
+}
+
+
+#contact-form{
+    padding-left: 450px;
+  
+   background-color: transparent;
+    height: 400px;
+    width: 600px;
+  
+}
+
+.control{
+    padding-top: 20px;
+    height: 30px;
+    width: 549px;
+    font-size: 20px;
+    background-color: transparent;
+    color: rgb(118, 238, 81);
+    border-style: hidden;
+    border-bottom: 1px solid whitesmoke;
+    border-color: rgb(206, 170, 123);
+    
+}
+.controlm{
+    height: 150px;
+    width: 550px;
+    color: antiquewhite;
+    font-size: 20px;
+    margin: 15px;
+    background-color: transparent;
+    border-color: rgb(206, 170, 123);
+    border-style: hidden;
+    border-bottom: 1px solid whitesmoke;
+}
+.controls{
+    height:7vh;
+    width:600px;
+    color: black;
+    font-size: large;
+    font-weight:bold;
+    background-color: orange;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  
+}
+.controls:hover{
+    cursor: pointer;
+    transition-delay: 3ms;
+    background-color:rgb(224, 221, 215);
+}
+
+
+
